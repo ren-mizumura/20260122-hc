@@ -10,7 +10,7 @@ body {
     font-size: 16px;
     background: url(../img/sec2-bg.png) no-repeat;
     background-size: 1659px 1064.257px;
-    background-position: -60px 1565px;
+    background-position: -60px 1655px;
 }
 
 a {
@@ -23,7 +23,7 @@ a {
   header
 ==================== */
 header {
-    height: 768px;
+    height: 804px;
     display: flex;
     flex-direction: column;
     position: relative;
