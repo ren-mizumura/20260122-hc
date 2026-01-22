@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #111;
+    font-size: 16px;
+    background: url(../img/sec2-bg.png) no-repeat;
+    background-size: 1659px 1064.257px;
+    background-position: -60px 1565px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* ====================
+  header
+==================== */
+header {
+    height: 768px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: url(../img/header.png) no-repeat center/cover;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: rgba(255, 255, 255, 0.70);
+    color: #000;
+}
+
+.links .log {
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.links nav {
+    display: flex;
+    gap: 50px;
+}
+
+.main-copy {
+    position: absolute;
+    left: 140px;
+    top: 260px;
+    font-size: 64px;
+    color: #FFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.4px;
+}
+
+.sub-copy {
+    font-size: 32px;
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+}
+
+
+/* ====================
+  main共通
+==================== */
+main {
+    width: 1200px;
+    margin: auto;
+}
+
+section {
+    margin: 120px auto;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 1em;
+}
+
+.text-area p {
+    font-size: 20px;
+}
+
+
+/* ====================
+  .featureセクション
+==================== */
+.feature {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 100px;
+}
+
+.feature .text-area {
+    margin-top: 100px;
+}
+
+.features {
+    width: 680px;
+    height: 600px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.features div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 360px;
+}
+
+.center {
+    background: url(../img/center.png) center/contain no-repeat;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.center h3 {
+    color: #535353;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transform: translateY(-100%);
+}
+
+.right {
+    background: url(../img/right.png) center/contain no-repeat;
+    bottom: 0;
+    right: 0;
+}
+
+.left {
+    background: url(../img/left.png) center/contain no-repeat;
+    bottom: 0;
+    left: 0;
+}
+
+.features h3 {
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+
+.features img {
+    position: absolute;
+}
+
+.left img {
+    top: 157px;
+    left: -77px;
+}
+
+.right img {
+    top: 88px;
+    left: 85px;
+}
+
+
+/* ====================
+  .new-eraセクション
+==================== */
+.new-era {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 300px; 
+}
+
+.new-era .text-area {
+    width: 44%;
+}
+
+.new-era img {
+    width: 45%;
+    height: auto;
+}
+
+
+/* ====================
+  footer
+==================== */
+footer {
+    height: 300px;
+    background: url(../img/bg-footer.png) top center /cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #fff;
+    margin-top: 40px;
+}
